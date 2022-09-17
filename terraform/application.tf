@@ -21,7 +21,7 @@ resource "kubernetes_deployment" "nodeapp" {
       }
       spec {
         container {
-          image = "230418669082.dkr.ecr.ap-south-1.amazonaws.com/node-app:"
+          image = "111111111111.dkr.ecr.ap-south-1.amazonaws.com/node-app:9c797a6f5609fc06c954a3fed9369dfddb601072"
           name  = "nodeapp"
 
           resources {
