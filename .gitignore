@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+*/terraform.tfvars
+*/terraform.tfstate
+*/terraform.tfstate.backup
+*/.terraform*
+*/.docker/config.json
