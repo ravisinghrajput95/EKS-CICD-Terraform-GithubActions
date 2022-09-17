@@ -1,4 +1,4 @@
-resource "kubernetes_secret" "example" {
+/* resource "kubernetes_secret" "example" {
   metadata {
     name = "docker-cfg"
   }
@@ -8,4 +8,4 @@ resource "kubernetes_secret" "example" {
   }
 
   type = "kubernetes.io/dockerconfigjson"
-}
+} */
